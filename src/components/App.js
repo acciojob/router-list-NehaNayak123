@@ -10,8 +10,8 @@ const App = () => {
     <Router>
         {/* Do not remove the main div */}
         <Routes>
-          <Route path="/" element={ItemList}/>
-          <Route path="/items/:id" element={ItemDetail}/>
+          <Route path="/" element={<ItemList/>}/>
+          <Route path="/items/:id" element={<ItemDetail/>}/>
         </Routes>
     </Router>
   )
